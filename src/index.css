@@ -1,0 +1,16 @@
+.MarginCenter{
+  margin: o auto;
+}
+li{
+  list-style: none;
+  padding: 15px 5px 0px;
+  min-height: 30px;
+  margin-bottom: 10px;
+  max-width: 250px;
+}
+li:nth-child(odd){
+  background-color: blueviolet;
+}
+li:nth-child(even){
+  background-color: brown;
+}
